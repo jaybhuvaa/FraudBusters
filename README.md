@@ -192,4 +192,4 @@ Outputs:
 
 ## 🏁 Acknowledgment
 
-This project was developed as part of the **End of Degree (EOD) Submission** for academic purposes, focusing on the application of data science and machine learning in financial fraud detection.
+This project was developed as part of the **Essentials Of Data Science (EOD) Submission** for academic purposes, focusing on the application of data science and machine learning in financial fraud detection.
