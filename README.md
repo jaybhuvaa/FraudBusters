@@ -12,30 +12,13 @@ A comprehensive machine learning pipeline for detecting fraudulent transactions 
 
 | Name | Role |
 |------|------|
-| **Jay Bhuva** | Data Collection & Preparation |
-| **Prajakta Avachat** | Model Building & Evaluation |
+| **Prajakta Avachat** | Data Collection & Preparation |
+| **Jay Bhuva** | Model Building & Evaluation |
 
 *Both members collaborated on research, documentation, and presentation.*
 
 **Course:** DS 5110 - Essentials of Data Science  
 **Institution:** Northeastern University
-
----
-
-## 📋 Table of Contents
-
-- [Project Overview](#project-overview)
-- [Dataset](#dataset)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Methodology](#methodology)
-- [Results](#results)
-- [SQL Database & Reports](#sql-database--reports)
-- [Key Findings](#key-findings)
-- [References](#references)
-
----
 
 ## 🎯 Project Overview
 
@@ -236,20 +219,21 @@ After SMOTE:
 
 ### Model Comparison
 
-| Model | Accuracy | Precision | Recall | F1-Score | AUC-ROC |
-|-------|----------|-----------|--------|----------|---------|
-| Logistic Regression | 0.85 | 0.45 | 0.78 | 0.57 | 0.88 |
-| Random Forest | 0.92 | 0.65 | 0.82 | 0.72 | 0.94 |
-| **XGBoost** | **0.94** | **0.72** | **0.85** | **0.78** | **0.96** |
-| LightGBM | 0.93 | 0.70 | 0.84 | 0.76 | 0.95 |
+| Model                | Accuracy | Precision | Recall | F1-Score | AUC-ROC |
+|----------------------|----------|-----------|--------|----------|---------|
+| Logistic Regression  | 0.9470   | 0.3222    | 0.4662 | 0.3811   | 0.8332  |
+| Random Forest        | 0.9730   | 0.6613    | 0.4687 | 0.5486   | 0.8976  |
+| **XGBoost**          | **0.9748** | **0.7195** | **0.4587** | **0.5603** | **0.9062** |
+| LightGBM             | 0.9738   | 0.6918    | 0.4529 | 0.5474   | 0.9042  |
+
 
 *Note: Actual results may vary based on random seed and data splits.*
 
 ### Best Model: XGBoost
 
-- **Highest AUC-ROC:** 0.96 (excellent discrimination)
-- **Best Recall:** 0.85 (catches 85% of frauds)
-- **Balanced F1-Score:** 0.78
+- **Highest AUC-ROC:** 0.9062 (excellent discrimination)
+- **Best Recall:** 0.4587 (catches 46% of frauds)
+- **Balanced F1-Score:** 0.5603
 
 ### Top 10 Important Features
 
