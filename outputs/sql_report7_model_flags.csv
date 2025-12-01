@@ -1,0 +1,5 @@
+model,flagged_as_fraud,flagged_as_normal,flag_rate_percent
+Logistic Regression,5980,112128,5.06
+Random Forest,2929,115179,2.48
+XGBoost,2635,115473,2.23
+LightGBM,2706,115402,2.29

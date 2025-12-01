@@ -1,0 +1,38 @@
+
+Dataset Overview:
+-----------------
+Original features: 434
+Final features: 404
+Features dropped (high missing): 74
+
+Samples:
+--------
+Total samples: 590540
+Training samples (original): 472432
+Training samples (after SMOTE): 683853
+Test samples: 118108
+
+Class Distribution:
+-------------------
+Original fraud rate: 3.50%
+Training fraud rate (after SMOTE): 33.33%
+Test fraud rate: 3.50%
+
+Feature Engineering:
+--------------------
+- Time features: Transaction_hour, Transaction_day_of_week, is_weekend, is_night
+- Amount features: TransactionAmt_log, TransactionAmt_decimal, TransactionAmt_is_round
+- Email features: P_email_suffix, R_email_suffix, email_match
+- Interaction features: card1_card2, addr1_addr2
+
+Processing Steps:
+-----------------
+1.  Merged transaction + identity data
+2.  Created 8 engineered features
+3.  Removed 74 high-missing columns (>80%)
+4.  Imputed numeric (median) and categorical (Unknown)
+5.  Label encoded high-cardinality categoricals
+6.  One-hot encoded low-cardinality categoricals
+7.  Train/test split (80/20, stratified)
+8.  Applied SMOTE for class balancing
+9.  Scaled features with StandardScaler

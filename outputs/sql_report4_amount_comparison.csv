@@ -1,0 +1,3 @@
+transaction_type,count,avg_amount,min_amount,max_amount,total_amount
+Normal,569877,134.51,0.25,31937.39,76655103.88
+Fraudulent,20663,149.24,0.29,5191.0,3083844.86

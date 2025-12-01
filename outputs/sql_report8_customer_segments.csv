@@ -1,0 +1,7 @@
+card_type,card_category,customer_count,transaction_count,fraud_count,fraud_rate_percent,avg_transaction_amt
+discover,credit,10,4459,362,8.12,255.36
+mastercard,credit,1465,50565,3508,6.94,185.48
+visa,credit,2574,82298,5425,6.59,188.89
+american express,credit,1273,8119,233,2.87,174.72
+visa,debit,4852,296567,7604,2.56,117.75
+mastercard,debit,3273,138422,2988,2.16,112.97

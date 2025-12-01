@@ -1,0 +1,4 @@
+device_type,transaction_count,fraud_count,fraud_rate_percent,avg_amount
+mobile,55645,5657,10.17,69.5
+desktop,85165,5554,6.52,92.6
+Unknown,449730,9452,2.1,151.17
